@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "633075616955",
+    "firebase_url": "https://android-car-57c79.firebaseio.com",
+    "project_id": "android-car-57c79",
+    "storage_bucket": "android-car-57c79.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633075616955:android:cee51ce2427622b4",
+        "android_client_info": {
+          "package_name": "com.example.a6654.fb_iot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633075616955-6b5ujnpj03polbtd81oaov5epdb99o4p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a6654.fb_iot",
+            "certificate_hash": "af006947d04f7f4cf55e65e72e04f7cd15fffd74"
+          }
+        },
+        {
+          "client_id": "633075616955-ncqgkp4p7pktf3d7i7rrju5tit0rklri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqvHZ6vxSebjep45Jt32BNiqkV8s3kC9s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633075616955-ncqgkp4p7pktf3d7i7rrju5tit0rklri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
