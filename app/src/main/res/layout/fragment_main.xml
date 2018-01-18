@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--Content-->
+
+       <!-- android:background="@drawable/" -->
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/my_margin"
+        android:layout_marginLeft="@dimen/my_margin"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--Email-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--Icon-->
+            <ImageView
+                android:src="@drawable/ic_action_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!--Email-->
+            <EditText
+                android:id="@+id/edtEmail"
+                android:inputType="textEmailAddress"
+                android:hint="@string/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <!--Password-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--Icon-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_password" />
+
+            <!--Password-->
+            <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:inputType="textPassword" />
+
+        </LinearLayout>
+
+        <!--Login-->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login" />
+
+        <!--New Register-->
+        <TextView
+            android:id="@+id/txtNewRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:text="New Register"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
